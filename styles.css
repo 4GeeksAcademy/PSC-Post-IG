@@ -1,0 +1,52 @@
+* {
+    background-color: ;
+    font-family: "Montserrat", sans-serif;;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: gainsboro;
+
+}
+.post {
+    background-color:  white;
+    border-radius: 10px;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+
+}
+
+.header {
+    width: 100%;
+    height: 10%; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    
+
+}
+.header-left strong {
+    display: block;
+    
+
+}
+
+/* Este es SPAN, es un contenedor donde ira nuestro icono de HTML 5*/
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+i {
+    font-size: 40px;
+}
